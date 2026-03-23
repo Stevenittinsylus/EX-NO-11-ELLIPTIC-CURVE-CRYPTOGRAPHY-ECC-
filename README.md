@@ -16,7 +16,7 @@ To Implement ELLIPTIC CURVE CRYPTOGRAPHY(ECC)
    - Each party selects a private key \( d \) (a random integer).
    - Calculate the public key as \( Q = d \times G \) (using elliptic curve point multiplication).
 
-4. Encryption and Decryption:
+4. Encryption and Decryption:0
    - Encryption: The sender uses the recipient’s public key and the base point \( G \) to encode the message.
    - Decryption: The recipient uses their private key to decode the message and retrieve the original plaintext.
 
@@ -102,6 +102,7 @@ return 0;
 
 
 ## Output:
+<img width="376" height="175" alt="image" src="https://github.com/user-attachments/assets/876616c1-29bc-4a6e-aaf7-95008256527f" />
 
 
 
